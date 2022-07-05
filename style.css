@@ -12,10 +12,19 @@ h1{
    
     
 }
-p{
+h2{
     text-align: center;
-    color: white;
+    font-size: 40px;
+    margin-top: 100px;
+}
+.firstparagraph{
+    text-align: center;
+    color: rgb(213, 209, 209);
 
+}
+.secondparagraph{
+    text-align: center;
+    color: gray;
 }
 .bottom-margin{
     padding-bottom: 0;
@@ -41,4 +50,41 @@ section{
     margin-left: 550px;
     
 }
-
+.flexible-container{
+    display: flex;
+    margin-left: 420px;
+}
+.div1 {
+    width: 80px;
+  height: 60px;
+  border-style: none;
+  box-sizing: border-box;
+  text-align:center;
+  padding-top: 25px;
+  background-color: rgb(246, 241, 241);
+  margin-right: 10px;
+  color:rgb(186, 179, 179) ;
+  }
+  .div2 {
+    width: 80px;
+  height: 60px;
+  border: 1px solid red;
+  box-sizing: border-box;
+  text-align:center;
+  padding-top: 25px;
+  background-color: rgb(236, 188, 188);
+  margin-right: 10px;
+  color: red;
+  }
+  .bottom-border{
+    border-bottom: 1px solid rgb(186, 179, 179);
+    width: 450px;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 420px;
+    color:rgb(186, 179, 179) ;
+  }
+  .button-margin-top{
+    margin-top: 20px;
+  }
+  
