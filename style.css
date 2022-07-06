@@ -95,4 +95,48 @@ section{
     text-align: center;
     font-size: 40px;
   }
+  .flexible-container2{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 320px;
+  }
+  .divbox1{
+    width: 220px;
+  height: 250px;
+  border-style: none;
+  box-sizing: border-box;
+  background-color: rgb(210, 224, 215);
+  margin-right: 10px;
+  border-radius: 5px;
+  padding: 20px;
   
+  }
+  .divbox2{
+    width: 220px;
+  height: 250px;
+  border-style: none;
+  box-sizing: border-box;
+  background-color: rgb(236, 188, 188);
+  margin-right: 10px;
+  border-radius: 5px;
+  padding: 20px;
+  }
+  .divbox3{
+    width: 220px;
+  height: 250px;
+  border-style: none;
+  box-sizing: border-box;
+  background-color: rgb(225, 225, 150);
+  border-radius: 5px;
+  padding: 20px;
+  }
+  .boxpara {
+    text-align: justify;
+    color: gray;
+    font-size: 10px;
+     
+  }
+  .boxheading{
+    text-align: left;
+
+  }
