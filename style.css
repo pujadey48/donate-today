@@ -30,14 +30,14 @@ h1{
     padding-bottom: 0;
 }
 .top-margin{
-    padding-top: 60px;
+    padding-top: 100px;
 }
 .background-image{
     background-image: url(images/donation13.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
-section{
+.main-page{
     height: 600px;
 }
 .button{
@@ -139,4 +139,14 @@ section{
   .boxheading{
     text-align: left;
 
+  }
+  .footer-container{
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 100px;
+  }
+  #footer-heading{
+    padding-top: 25px;
+    color: tomato;
   }
