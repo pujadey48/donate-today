@@ -9,6 +9,8 @@ h1{
     text-align: center;
     color: white;
     font-size: 40px;
+    margin: 0;
+    
    
     
 }
@@ -20,7 +22,11 @@ h1{
 .firstparagraph{
     text-align: center;
     color: rgb(226, 216, 216);
+    margin: 0;
 
+}
+.first-para-margin{
+    margin-top: 30px;
 }
 .secondparagraph{
     text-align: center;
@@ -38,7 +44,7 @@ h1{
     background-size: cover;
 }
 .main-page{
-    height: 600px;
+    height: 500px;
 }
 .button{
     color: white;
@@ -48,6 +54,15 @@ h1{
     border-radius: 5px;
     font-weight: 700;
     margin-left: 550px;
+    
+}
+.button-subscribe{
+    color: white;
+    text-decoration: none;
+    padding: 5px 30px;
+    background: linear-gradient(to right, #ff9966 0%, #ff0000 100%);
+    border-radius: 5px;
+    font-weight: 700;
     
 }
 .flexible-container{
@@ -87,6 +102,7 @@ h1{
     margin-top: 40px;
     margin-left: 420px;
     color:rgb(186, 179, 179) ;
+    
   }
   .button-margin-top{
     margin-top: 30px;
@@ -143,27 +159,41 @@ h1{
     text-align: left;
 
   }
+  
   .footer-container{
     text-align: center;
     background-color: black;
     color: white;
     height: 100px;
     margin-top: 60px;
+    
   }
   #footer-heading{
     padding-top: 25px;
     color: tomato;
    
   }
-  input {
+  .input1 {
     outline: 0;
-    border-width: 0 0 2px;
-    border-color: blue
+    border-width: 0 0 1px;
+    border-color: rgb(186, 179, 179);
   }
-  input:focus {
+  .input2{
+    outline: 0;
+  }
+  .input:focus {
     border-color: green
   }
   .center {
     margin-left: 400px;
     
+  }
+  .form-container{
+    width: 400px;
+    background-color: #ff9966;
+    margin-left: 400px;
+    padding: 40px;
+  }
+  .mail-margin{
+    margin-left: 50px;
   }
