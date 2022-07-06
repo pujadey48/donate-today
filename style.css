@@ -98,10 +98,13 @@ h1{
   .flexible-container2{
     display: flex;
     margin-top: 40px;
-    margin-left: 320px;
+    margin-left: 190px;
+  }
+  .donate-plan{
+    padding-top: 60px;
   }
   .divbox1{
-    width: 220px;
+    width: 300px;
   height: 250px;
   border-style: none;
   box-sizing: border-box;
@@ -112,7 +115,7 @@ h1{
   
   }
   .divbox2{
-    width: 220px;
+    width: 300px;
   height: 250px;
   border-style: none;
   box-sizing: border-box;
@@ -122,7 +125,7 @@ h1{
   padding: 20px;
   }
   .divbox3{
-    width: 220px;
+    width: 300px;
   height: 250px;
   border-style: none;
   box-sizing: border-box;
@@ -145,8 +148,22 @@ h1{
     background-color: black;
     color: white;
     height: 100px;
+    margin-top: 60px;
   }
   #footer-heading{
     padding-top: 25px;
     color: tomato;
+   
+  }
+  input {
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: blue
+  }
+  input:focus {
+    border-color: green
+  }
+  .center {
+    margin-left: 400px;
+    
   }
